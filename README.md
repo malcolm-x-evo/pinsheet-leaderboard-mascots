@@ -6,6 +6,11 @@ CI runs the full Python suite (`pytest`), a JS syntax check, and this plugin's
 jsdom DOM test on every PR to `dev`/`main` — so the pass counts below are
 continuously auditable, not a one-time local claim.
 
+**Screenshots** (plugin executing on a real PinSheet server, headless Chrome):
+see [`docs/screenshots/`](docs/screenshots/).
+
+![desktop board](https://raw.githubusercontent.com/malcolm-x-evo/pinsheet-leaderboard-mascots/main/docs/screenshots/board-desktop.png)
+
 > Ported from **PR #31** (`feat(board): pixel mascots + golf-pun nicknames on
 > the leaderboard`, github.com/BitNinja01/pinsheet-server/pull/31). The original
 > PR edited core templates + core `app.css`; this rewrite delivers the same
